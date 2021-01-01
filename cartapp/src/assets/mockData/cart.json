@@ -1,0 +1,104 @@
+{
+  "cartProducts": [
+    {
+      "id": 1,
+      "brandName": "MilkFood",
+      "productName": "MilkFood Rich Desi",
+      "quantity": 1,
+      "price": 500,
+      "MRP": 450,
+      "image": "",
+      "offerText": "20%"
+    },
+    {
+      "id": 2,
+      "brandName": "Gorfers Mother Choice",
+      "productName": "Goefers Pure Ghee",
+      "quantity": 1,
+      "price": 200,
+      "MRP": 150,
+      "image": "",
+      "offerText": "12%"
+    },
+    {
+      "id": 3,
+      "brandName": "Amul",
+      "productName": "Amul Milk",
+      "quantity": 1,
+      "price": 100,
+      "MRP": 75,
+      "image": "",
+      "offerText": "25%"
+    },
+    {
+      "id": 4,
+      "brandName": "Arun",
+      "productName": "Arun Icecream Diary",
+      "quantity": 1,
+      "price": 120,
+      "MRP": 110,
+      "image": "",
+      "offerText": "10%"
+    },
+    {
+      "id": 5,
+      "brandName": "Patanjili",
+      "productName": "Patanjali shampoo",
+      "quantity": 1,
+      "price": 500,
+      "MRP": 450,
+      "image": "",
+      "offerText": "10%"
+    },
+    {
+      "id": 6,
+      "brandName": "Nirma SSL",
+      "productName": "Nirma SSL Ghee",
+      "quantity": 1,
+      "price": 100,
+      "MRP": 70,
+      "image": "",
+      "offerText": "30%"
+    },
+    {
+      "id": 7,
+      "brandName": "Jersy",
+      "productName": "Jersy Milk",
+      "quantity": 1,
+      "price": 80,
+      "MRP": 70,
+      "image": "",
+      "offerText": "10%"
+    },
+    {
+      "id": 8,
+      "brandName": "Heritage",
+      "productName": "Heritage milk",
+      "quantity": 1,
+      "price": 100,
+      "MRP": 70,
+      "image": "",
+      "offerText": "20%"
+    },
+    {
+      "id": 9,
+      "brandName": "Good life",
+      "productName": "Good life pure ghee",
+      "quantity": 1,
+      "price": 500,
+      "MRP": 450,
+      "image": "",
+      "offerText": "20%"
+    },
+    {
+      "id": 10,
+      "brandName": "Ashoka PVT",
+      "productName": "Ashoka PVT Pure Ghee",
+      "quantity": 1,
+      "price": 500,
+      "MRP": 350,
+      "image": "",
+      "offerText": "50%"
+    }
+  ]
+}

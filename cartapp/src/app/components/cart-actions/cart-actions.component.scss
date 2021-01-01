@@ -1,0 +1,24 @@
+.cart-actions-container {
+    width: 400px;
+    display: inline;
+    button {
+        width: 100px;
+        height: 30px;
+        padding: 5px;
+        background-color: green;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.cart-counter {
+    display: inline-block;
+}
+.material-icons {
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+}
+.count {
+    margin: 0 10px
+}

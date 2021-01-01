@@ -1,0 +1,4 @@
+<div *ngFor="let product of products">
+    <app-cart-product [product]="product" (updatePrice)="updatePrice($event)"></app-cart-product>
+</div>
+<app-cart-footer></app-cart-footer>

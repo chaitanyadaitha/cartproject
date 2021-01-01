@@ -1,0 +1,8 @@
+<div class="cart-actions-container">
+    <button mat-button color="primary" (click)="onButtonClick($event)">Add to Cart</button>
+    <div class="cart-counter">
+        <i class="material-icons md-24" style="color: green" name= "add" (click)="addItem($event)">add_circle</i>
+        <span class="count">{{count}}</span>
+        <i class="material-icons md-24" style="color: green" name= "reduce" (click)="reduceItem($event)">remove_circle</i>
+    </div>
+</div>

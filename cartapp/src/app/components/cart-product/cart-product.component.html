@@ -1,0 +1,14 @@
+<div class="product-container">
+    <div class="image-section">
+        
+    </div>
+
+    <div class="details-section">
+        <h2>{{product.brandName}}</h2>
+        <h3>{{product.productName}}</h3>
+        <p>{{product.quantity}} L</p>
+        <p>MRP {{product.MRP}}</p>
+        <p>RS {{product.price}}</p>
+        <app-cart-actions (cartEvent)="priceChange($event)" [productId]="product.id"></app-cart-actions>
+    </div>
+</div>

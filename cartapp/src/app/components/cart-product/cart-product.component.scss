@@ -1,0 +1,15 @@
+.product-container {
+    width: 800px;
+    height: 250px;
+    display: flex;
+}
+.image-section {
+    width: 300px;
+    border: 2px solid black;
+}
+
+.details-section {
+    width: 500px;
+    box-sizing: border-box;
+    padding: 0 10px
+}
