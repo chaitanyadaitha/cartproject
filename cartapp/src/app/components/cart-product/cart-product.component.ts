@@ -1,3 +1,4 @@
+import { ThrowStmt } from '@angular/compiler';
 import { Component, Input, OnInit } from '@angular/core';
 import { Output, EventEmitter } from '@angular/core';
 
@@ -9,14 +10,17 @@ import { Output, EventEmitter } from '@angular/core';
 export class CartProductComponent implements OnInit {
 
   @Input() product:any;
-  @Output() updatePrice = new EventEmitter<any>();
+  @Input() prices: any;
+  @Output() updateCart = new EventEmitter<any>();
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  priceChange(event:any) {
-    this.updatePrice.emit({...event, price: this.product.price});
+  cartActionChange(event:any) {
+
+    this.updateCart.emit(event);
   }
+
 }

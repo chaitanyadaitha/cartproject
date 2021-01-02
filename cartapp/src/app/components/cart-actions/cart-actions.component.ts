@@ -16,21 +16,22 @@ export class CartActionsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onButtonClick(event) {
-    console.log(event)
+  onButtonClick(event:any) {
+    this.count = this.count + 1;
+    this.cartEvent.emit({count: this.count, id: this.productId, action: 'addToCart'})
   }
 
   addItem() {
     if (this.count >= 0) {
       this.count = this.count + 1;
-      this.cartEvent.emit({ count: this.count, id: this.productId, action: 'add'});
+      this.cartEvent.emit({ count: this.count, id: this.productId, action: 'item'});
     }
   }
 
   reduceItem() {
     if (this.count > 0) {
       this.count = this.count - 1;
-      this.cartEvent.emit({ count: this.count, id: this.productId, action: 'reduce'});
+      this.cartEvent.emit({ count: this.count, id: this.productId, action: 'item'});
     }
   }
 }

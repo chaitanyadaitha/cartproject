@@ -1,4 +1,4 @@
 <div *ngFor="let product of products">
-    <app-cart-product [product]="product" (updatePrice)="updatePrice($event)"></app-cart-product>
+    <app-cart-product [product]="product" [prices] = "prices" (updateCart) = "updateCart($event)"></app-cart-product>
 </div>
-<app-cart-footer></app-cart-footer>
+<app-cart-footer [cartData]="cartData"></app-cart-footer>

@@ -8,7 +8,7 @@
         <h3>{{product.productName}}</h3>
         <p>{{product.quantity}} L</p>
         <p>MRP {{product.MRP}}</p>
-        <p>RS {{product.price}}</p>
-        <app-cart-actions (cartEvent)="priceChange($event)" [productId]="product.id"></app-cart-actions>
+        <p>RS {{prices[product.id].price}}</p>
+        <app-cart-actions (cartEvent)="cartActionChange($event)" [productId]="product.id" (addToCart)="cartActionChange($event)"></app-cart-actions>
     </div>
 </div>

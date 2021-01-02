@@ -1,1 +1,9 @@
-<div class="cart-footer">cart-footer works!</div>
+<div class="cart-footer">
+    <div class="cart-lookout">
+        <h3>Qty {{cartData.count}}</h3>
+        <h3>Total {{cartData.price}}</h3>
+    </div>
+    <div class="cart-checkout">
+        <button mat-button color="primary" (click)="openDialog()">Checkout</button>
+    </div>
+</div>

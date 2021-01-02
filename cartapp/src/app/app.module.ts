@@ -1,10 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatIconModule } from '@angular/material/icon';
+import {MatDialogModule} from '@angular/material/dialog';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,8 +15,9 @@ import { CartProductsComponent } from './components/cart-products/cart-products.
 import {CartService} from './services/cart-service.service';
 
 import { CartProductComponent } from './components/cart-product/cart-product.component';
-import { CartFooterComponent } from './components/cart-footer/cart-footer.component';
+import { CartFooterComponent, DialogDataExampleDialog } from './components/cart-footer/cart-footer.component';
 import { CartActionsComponent } from './components/cart-actions/cart-actions.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,14 +25,16 @@ import { CartActionsComponent } from './components/cart-actions/cart-actions.com
     CartProductsComponent,
     CartProductComponent,
     CartFooterComponent,
-    CartActionsComponent
+    CartActionsComponent,
+    DialogDataExampleDialog
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDialogModule
   ],
   providers: [CartService],
   bootstrap: [AppComponent]
