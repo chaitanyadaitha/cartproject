@@ -4,6 +4,6 @@
         <h3>Total {{cartData.price}}</h3>
     </div>
     <div class="cart-checkout">
-        <button mat-button color="primary" (click)="openDialog()">Checkout</button>
+        <button class="mat-button-raised" [disabled]="!cartData.count" (click)="openDialog()">Checkout</button>
     </div>
 </div>

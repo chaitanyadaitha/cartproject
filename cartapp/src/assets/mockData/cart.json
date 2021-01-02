@@ -7,7 +7,7 @@
       "quantity": 1,
       "price": 500,
       "MRP": 450,
-      "image": "",
+      "image": "assets/images/1.jpg",
       "offerText": "20%"
     },
     {
@@ -17,7 +17,7 @@
       "quantity": 1,
       "price": 200,
       "MRP": 150,
-      "image": "",
+      "image": "assets/images/2.jpg",
       "offerText": "12%"
     },
     {
@@ -27,7 +27,7 @@
       "quantity": 1,
       "price": 100,
       "MRP": 75,
-      "image": "",
+      "image": "assets/images/3.jpg",
       "offerText": "25%"
     },
     {
@@ -37,7 +37,7 @@
       "quantity": 1,
       "price": 120,
       "MRP": 110,
-      "image": "",
+      "image": "assets/images/4.jpg",
       "offerText": "10%"
     },
     {
@@ -47,7 +47,7 @@
       "quantity": 1,
       "price": 500,
       "MRP": 450,
-      "image": "",
+      "image": "assets/images/5.jpg",
       "offerText": "10%"
     },
     {
@@ -57,7 +57,7 @@
       "quantity": 1,
       "price": 100,
       "MRP": 70,
-      "image": "",
+      "image": "assets/images/6.jpg",
       "offerText": "30%"
     },
     {
@@ -67,7 +67,7 @@
       "quantity": 1,
       "price": 80,
       "MRP": 70,
-      "image": "",
+      "image": "assets/images/7.jpg",
       "offerText": "10%"
     },
     {
@@ -77,7 +77,7 @@
       "quantity": 1,
       "price": 100,
       "MRP": 70,
-      "image": "",
+      "image": "assets/images/8.jpg",
       "offerText": "20%"
     },
     {
@@ -87,7 +87,7 @@
       "quantity": 1,
       "price": 500,
       "MRP": 450,
-      "image": "",
+      "image": "assets/images/9.jpg",
       "offerText": "20%"
     },
     {
@@ -97,7 +97,7 @@
       "quantity": 1,
       "price": 500,
       "MRP": 350,
-      "image": "",
+      "image": "assets/images/10.jpg",
       "offerText": "50%"
     }
   ]

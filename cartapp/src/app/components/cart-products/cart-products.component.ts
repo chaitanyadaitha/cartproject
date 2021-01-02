@@ -10,6 +10,7 @@ export class CartProductsComponent implements OnInit {
 
   products:any;
   prices:any = [];
+  images:any = [];
   finalCount:any = 0;
   finalPrice:any = 0;
   cartData:any = {count: 0, price: 0};
@@ -18,6 +19,7 @@ export class CartProductsComponent implements OnInit {
 
   ngOnInit(): void {
     this.cartService.getCartItems().subscribe((res:any) => { 
+      res['cartProducts'].image = this.images[res['cartProducts'].id];
       this.products = res['cartProducts'];
        this.prices = this.products.reduce((acc:any, product: any) => {
          return {...acc, [product.id]: { price: product.price, count: 0}}
