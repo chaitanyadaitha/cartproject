@@ -18,6 +18,8 @@ import {CartService} from './services/cart-service.service';
 import { CartProductComponent } from './components/cart-product/cart-product.component';
 import { CartFooterComponent, DialogDataExampleDialog } from './components/cart-footer/cart-footer.component';
 import { CartActionsComponent } from './components/cart-actions/cart-actions.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,8 @@ import { CartActionsComponent } from './components/cart-actions/cart-actions.com
     MatIconModule,
     MatButtonModule,
     HttpClientModule,
-    MatDialogModule
+    MatDialogModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [CartService],
   bootstrap: [AppComponent]

@@ -12,7 +12,4 @@ export class CartService {
   getCartItems() {
     return this.httpService.get('../../assets/mockData/cart.json');
   }
-  getImages() {
-    return this.httpService.get('https://picsum.photos/v2/list?page=1&limit=10');
-  }
 }
