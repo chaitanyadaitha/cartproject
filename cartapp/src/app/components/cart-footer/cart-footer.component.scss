@@ -1,16 +1,16 @@
 .cart-footer {
-    width: 50%;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.cart-footer-children {
+    box-sizing: border-box;
     border: 2px solid red;
     background-color: azure;
     display: inline-flex;
     position: fixed;
     height: 100px;
     bottom: 0;
-    overflow: hidden;
-}
-.cart-footer-children {
-    display: flex;
-    justify-content: space-evenly;
 }
 .cart-lookout {
     width: 300px;
@@ -23,6 +23,7 @@
         height: 40px;
         position: relative;
         top: 15px;
+        right: 10px;
         font-weight: bold;
         font-size: x-large;
         cursor: pointer;
