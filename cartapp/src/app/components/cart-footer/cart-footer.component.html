@@ -1,9 +1,11 @@
 <div class="cart-footer">
-    <div class="cart-lookout">
-        <h3>Qty {{cartData.count}}</h3>
-        <h3>Total {{cartData.price}}</h3>
-    </div>
-    <div class="cart-checkout">
-        <button class="mat-button-raised" [disabled]="!cartData.count" (click)="openDialog()">Checkout</button>
+    <div class="cart-footer-children">
+        <div class="cart-lookout">
+            <h3>Qty {{cartData.count}}</h3>
+            <h3>Total {{cartData.price}}</h3>
+        </div>
+        <div class="cart-checkout">
+            <button class="mat-button-raised" [disabled]="!cartData.count" (click)="openDialog()">Checkout</button>
+        </div>
     </div>
 </div>

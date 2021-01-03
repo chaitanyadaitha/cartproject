@@ -28,7 +28,7 @@
       "price": 100,
       "MRP": 75,
       "image": "assets/images/3.jpg",
-      "offerText": "25%"
+      "offerText": ""
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "price": 120,
       "MRP": 110,
       "image": "assets/images/4.jpg",
-      "offerText": "10%"
+      "offerText": ""
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "price": 500,
       "MRP": 450,
       "image": "assets/images/5.jpg",
-      "offerText": "10%"
+      "offerText": ""
     },
     {
       "id": 6,

@@ -1,4 +1,7 @@
 <div *ngFor="let product of products" class="cart-products">
     <app-cart-product [product]="product" [prices] = "prices" (updateCart) = "updateCart($event)"></app-cart-product>
+    <p class="line-seperator"></p>
 </div>
+<div class="cart-footer">
 <app-cart-footer [cartData]="cartData"></app-cart-footer>
+</div>

@@ -1,11 +1,21 @@
 .cart-footer {
-    width: 800px;
-    position: relative;
+    width: 50%;
     border: 2px solid red;
+    background-color: azure;
     display: inline-flex;
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    overflow: hidden;
+}
+.cart-footer-children {
+    display: flex;
+    justify-content: space-evenly;
 }
 .cart-lookout {
     width: 300px;
+    position: relative;
+    left: 15px;
 }
 .cart-checkout{
     button {

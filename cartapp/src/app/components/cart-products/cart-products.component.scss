@@ -1,4 +1,14 @@
 .cart-products {
     height: 300px;
-    overflow-y: scroll;
+    width: 500px;
+    margin: 0 auto;
+}
+.line-seperator {
+    position: relative;
+    top: 10px;
+    width: 550px;
+    border-bottom: 2px solid black;
+}
+.cart-footer {
+    width: 600px;
 }

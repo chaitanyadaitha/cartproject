@@ -19,7 +19,6 @@ export class CartProductComponent implements OnInit {
   }
 
   cartActionChange(event:any) {
-
     this.updateCart.emit(event);
   }
 
