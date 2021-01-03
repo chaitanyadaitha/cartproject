@@ -6,7 +6,7 @@
       "productName": "MilkFood Rich Desi",
       "quantity": 1,
       "price": 500,
-      "MRP": 450,
+      "MRP": 550,
       "image": "assets/images/1.jpg",
       "offerText": "20%"
     },
@@ -16,7 +16,7 @@
       "productName": "Goefers Pure Ghee",
       "quantity": 1,
       "price": 200,
-      "MRP": 150,
+      "MRP": 250,
       "image": "assets/images/2.jpg",
       "offerText": "12%"
     },
@@ -26,7 +26,7 @@
       "productName": "Amul Milk",
       "quantity": 1,
       "price": 100,
-      "MRP": 75,
+      "MRP": 175,
       "image": "assets/images/3.jpg",
       "offerText": ""
     },
@@ -36,7 +36,7 @@
       "productName": "Arun Icecream Diary",
       "quantity": 1,
       "price": 120,
-      "MRP": 110,
+      "MRP": 210,
       "image": "assets/images/4.jpg",
       "offerText": ""
     },
@@ -46,7 +46,7 @@
       "productName": "Patanjali shampoo",
       "quantity": 1,
       "price": 500,
-      "MRP": 450,
+      "MRP": 550,
       "image": "assets/images/5.jpg",
       "offerText": ""
     },
@@ -56,7 +56,7 @@
       "productName": "Nirma SSL Ghee",
       "quantity": 1,
       "price": 100,
-      "MRP": 70,
+      "MRP": 170,
       "image": "assets/images/6.jpg",
       "offerText": "30%"
     },
@@ -66,7 +66,7 @@
       "productName": "Jersy Milk",
       "quantity": 1,
       "price": 80,
-      "MRP": 70,
+      "MRP": 100,
       "image": "assets/images/7.jpg",
       "offerText": "10%"
     },
@@ -76,7 +76,7 @@
       "productName": "Heritage milk",
       "quantity": 1,
       "price": 100,
-      "MRP": 70,
+      "MRP": 170,
       "image": "assets/images/8.jpg",
       "offerText": "20%"
     },
@@ -86,7 +86,7 @@
       "productName": "Good life pure ghee",
       "quantity": 1,
       "price": 500,
-      "MRP": 450,
+      "MRP": 550,
       "image": "assets/images/9.jpg",
       "offerText": "20%"
     },
@@ -96,7 +96,7 @@
       "productName": "Ashoka PVT Pure Ghee",
       "quantity": 1,
       "price": 500,
-      "MRP": 350,
+      "MRP": 650,
       "image": "assets/images/10.jpg",
       "offerText": "50%"
     }
