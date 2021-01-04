@@ -20,3 +20,10 @@
 .count {
     margin: 0 10px
 }
+
+@media only screen and (max-device-width: 480px) {
+    .cart-actions-container {
+        display: inline-block;
+        width:250px
+    }
+}

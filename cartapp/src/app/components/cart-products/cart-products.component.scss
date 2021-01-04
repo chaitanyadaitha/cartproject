@@ -15,7 +15,7 @@
 
 @media only screen and (max-device-width: 480px) {
     .cart-products {
-        width: 200px;
+        width: 100%;
         height: auto;
         display: block;
     }
@@ -23,6 +23,7 @@
         position: relative;
         top: 10px;
         width: 100%;
+        text-align: center;
         border-bottom: 2px solid black;
     }
     .cart-footer {

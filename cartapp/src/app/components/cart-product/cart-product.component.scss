@@ -17,9 +17,12 @@
 
 @media only screen and (max-device-width: 480px) {
     .product-container {
-        width: 100%;
+        width: 200px;
         height: auto;
         display: inline-block;
+        position: relative;
+        left: 25%;
+        margin-top:20px
     }
     .image-section {
         width: 100%;
