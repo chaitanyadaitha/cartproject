@@ -23,5 +23,11 @@
         display: flex;
         justify-content: center;
     }
+    .cart-main {
+        width: 100%;
+        min-height: calc(100vh - 150px);
+        position: fixed;
+        overflow: auto;
+    }
 
 }
