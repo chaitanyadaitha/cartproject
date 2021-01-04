@@ -29,3 +29,31 @@
         cursor: pointer;
     }
 }
+
+@media only screen and (max-device-width: 480px) {
+    .cart-footer-children  {
+        width: 100%;
+        display: block;
+        height: auto;
+        border: none;
+    }
+    .cart-checkout {
+        width: 100%;
+        position: relative;
+        bottom:20px;
+        left: 10px;
+        button {
+            width: 100%;
+        }
+    }
+    .cart-footer {
+        width: 370px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .cart-lookout {
+        text-align: center;
+        position: relative;
+        left: 15px;
+    }
+}

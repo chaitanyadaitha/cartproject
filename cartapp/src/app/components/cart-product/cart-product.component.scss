@@ -14,3 +14,29 @@
     box-sizing: border-box;
     padding: 0 10px
 }
+
+@media only screen and (max-device-width: 480px) {
+    .product-container {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+    .image-section {
+        width: 100%;
+        align-content: center;
+        display: block;
+        img {
+            width: auto;
+        }
+        h3 {
+            text-align: center;
+        } 
+    }
+    .details-section {
+        width: 200px;
+        display: block;
+        box-sizing: border-box;
+        padding: 0 10px
+    }
+
+}

@@ -17,3 +17,11 @@
         height: 500px;
     }
 }
+@media only screen and (max-device-width: 480px) {
+    .cart-children {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}

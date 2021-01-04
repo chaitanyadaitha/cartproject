@@ -12,3 +12,22 @@
 .cart-footer {
     width: 600px;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .cart-products {
+        width: 200px;
+        height: auto;
+        display: block;
+    }
+    .line-seperator {
+        position: relative;
+        top: 10px;
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+    .cart-footer {
+        width: 100%;
+    }
+    
+
+}
